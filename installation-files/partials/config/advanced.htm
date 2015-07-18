@@ -1,0 +1,17 @@
+<form id="advancedForm">
+    <p class="lead">
+        Specify a unique code for protecting sensitive data, such as user passwords.
+    </p>
+    <div class="form-group">
+        <label for="advEncryptionKey" class="control-label col-sm-4">Encryption Key</label>
+        <div class="col-sm-8">
+            <input
+                id="advEncryptionKey"
+                name="encryption_key"
+                class="form-control"
+                value="RANDOM_STRING"
+                maxlength="32" />
+            <span class="help-block">The encryption key should be of a valid length (16, 24, 32).</span>
+        </div>
+    </div>
+</form>

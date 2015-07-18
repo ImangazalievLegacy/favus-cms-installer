@@ -1,0 +1,53 @@
+<div class="form-group">
+    <label for="smtp-host" class="control-label col-sm-4">SMTP Host</label>
+    <div class="col-sm-8">
+        <input
+            id="smtp-host"
+            name="smtp_host"
+            class="form-control"
+            value="smtp.mailgun.org"
+            />
+        <span class="help-block">Specify the hostname for the SMTP connection.</span>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="smtp-port" class="control-label col-sm-4">Mail Encryption</label>
+    <div class="col-sm-8">
+        <select
+            id="smtp-port"
+            name="smtp_port"
+            class="form-control">
+            <option value="465" selected>SSL</option>
+            <option value="587">TLS</option>
+        </select>
+
+        <span class="help-block">Please specify the SMTP encryption protocol.</span>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="smtp-username" class="control-label col-sm-4">SMTP Username</label>
+    <div class="col-sm-8">
+        <input
+            id="smtp-username"
+            name="smtp_username"
+            class="form-control"
+            value=""
+            />
+        <span class="help-block">Specify the username for the SMTP connection.</span>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="smtp-password" class="control-label col-sm-4">SMTP Password</label>
+    <div class="col-sm-8">
+        <input
+            id="smtp-password"
+            name="smtp_password"
+            class="form-control"
+            value=""
+            />
+        <span class="help-block">Specify the password for the SMTP connection.</span>
+    </div>
+</div>
