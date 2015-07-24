@@ -554,7 +554,8 @@ class Installer
 
 		$this->writeConfig('app', array(
 
-			'key' => $this->sessionGetConfig('advanced', 'encryption_key'),
+			'debug' => false,
+			'key'   => $this->sessionGetConfig('advanced', 'encryption_key'),
 		));
 
 		$this->writeConfig('site/general', array(
